@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+body{
+  min-height: 100vh;
+  background: #f3f4f6;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-container{
+  width: 100%;
+  max-width: 900px;
+  
+}
+.contact-card{
+  background: #fff;
+  height: 450px;
+  border-radius: 12px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  
+}
+.form-section{
+  padding: 25px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-header{
+  margin-bottom: 25px;
+}
+.form-header h1{
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #4361ee;
+
+}
+.form-header p{
+  font: size 16px;
+  color: #6b7280;
+}
+
+
+.form-group{
+  margin-bottom: 15px;
+
+}
+.form-group label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.input-field{
+  width: 100%;
+  font-size: 15px;
+  padding: 8px 15px;
+  outline: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+}
+.submit-btn{
+  background: #4361ee;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all.2s;
+}
+.submit-btn:hover{
+  background: #3a56d4;
+}
+.info-section{
+  background: linear-gradient(360deg, #4361ee, #3f37c9);
+  color: #fff;
+  font-size: 15px;
+  padding: 25px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  
+}
+
+.info-header{
+  margin-bottom: 25px
+}
+.info-header h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.info-header p{
+  font-size: 16px;
+
+}
+.contact{
+  margin-bottom: 10px;
+}
+.contact-item{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 15px;
+}
+.contact-details a{
+  text-decoration: none;
+  color: #fff;
+  transition: all .4s;
+}
+.contact-details a:hover{
+  text-decoration: underline;
+}
+.social-links{
+  display: flex;
+  gap: 10px;
+}
+.social-links i{
+  color: #fff;
+  transition: all .2s;
+}
+.social-links i:hover{
+  transform: translateY(-5px);
+}
+@media(width<500px){
+  .contact-card{
+    height: auto;
+    flex-direction: column;
+  }
+}
+
+
+  

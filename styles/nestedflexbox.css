@@ -1,0 +1,144 @@
+div {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+  background-color: rgb(245, 243, 243);
+  width: 450px;
+  height: 300px;
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-top: 10px;
+
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 80px;
+  margin-left: 20px;
+
+}
+
+.twitter-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.twitter-heading {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.twitter-body {
+  margin-left: 10px;
+}
+
+.heading-1 {
+  font-weight: bold;
+}
+
+.heading-2 {
+  color: gray;
+}
+
+.tube-content {
+  background-color: rgb(233, 227, 227);
+  border: 1px solid white;
+  width: 350px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  
+}
+
+.tube-message {
+  width: 250px;
+
+  padding-left: 20px;
+  margin-left: -10px;
+}
+
+.you-tube {
+  color: rgb(159, 153, 153);
+  margin-bottom: 5px;
+}
+
+.empty {
+  background-color: rgb(224, 221, 221);
+  width: 80px;
+  border: none;
+  border: 1px solid rgb(240, 235, 235);
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 36px;
+
+}
+.message {
+  font-weight: bold;
+}
+.body {
+  
+
+}
+
+.css-position {
+  background-color: aqua;
+   display: flex;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 80px;
+}
+
+.position-fixed {
+  background-color: rgb(95, 95, 95);
+  width: 200px;
+  position: fixed;
+  left: 80px;
+  top: 50px;
+  bottom: 200px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  
+  
+}
+.position-content {
+  margin-left: 36px;
+  line-height: 40px;
+}
+.img-fixed {
+  background-color: gray;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 200px;
+  align-items: center;
+  padding-top: 80px;
+  margin-top: 50px;
+}

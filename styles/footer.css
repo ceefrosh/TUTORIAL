@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  min-height: 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: poppings,sans-serif;
+}
+
+footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: grey;
+  width: 100%;
+  padding: 20px 0 6rem 5rem;
+
+  
+}
+.footer-container{
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  }
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  
+}
+.footer-heading a i{
+  color: #fff;
+  padding-right: 8px;
+  
+
+  }
+  .footer-heading a i:hover{
+    color: blue;
+    
+    padding: 2px;
+    border-radius: 10px;
+
+  }
+
+
+.footer-heading h2{
+  margin-bottom: 10px;
+}
+
+.footer-heading a{
+  margin-bottom: 12px;
+  margin-right: 10px;
+  padding-right: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  transition: .3s ease-out;
+}
+.footer-heading a:hover{
+  color: #fff;
+}
+
+.footer-email-form h2{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#footer-email{
+  width: 200px;
+  height: 30px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+#footer-btn{
+  background-color: #e01010;
+  color: #fff;
+  text-transform: capitalize;
+  width: 60px;
+  height: 28px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+#footer-btn:hover{
+  background-color: blue;
+  transition: all .1s ease-out;
+  transform: scale(1.1);
+}
+.footer-email-form p{
+  font-weight: 500;
+  font-size: 15px;
+  
+}
+.footer-email-form h2{
+  padding-bottom: 5px;
+}
+
+#footer-email::placeholder {
+  color: red;
+  font-size: 14px;
+  
+}
+#footer-email:focus{
+  color: #ae2121;
+}
+
+.footer-email-form p a{
+  padding: 10px;
+  text-decoration: none;
+
+  }
+  .footer-email-form p a:hover{
+    color: #fff;
+  }
+  @media (max-width:550px){
+    .footer-container{
+      height: 50vh;
+      padding-top: 50px;
+    }
+  }
+
+  @media (max-width:350px){
+    .footer-container{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+   
+
+
+
+
+
+ 
+
+ 

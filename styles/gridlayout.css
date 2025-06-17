@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,700;1,400;1,700&family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  height: 100dvh;
+  display: grid;
+  text-align: center;
+  gap: 5px;
+  grid-template-columns: repeat(4 200px);
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas:
+  'sidebar nav nav nav'
+  'sidebar main main main'
+  'sidebar content1 content2 content3'
+  'sidebar footer footer footer';
+  
+}
+
+nav {
+  background: red;
+  grid-area: nav;
+}
+main {
+  background: chartreuse;
+  grid-area: main;
+}
+#sidebar {
+  
+  background: blueviolet;
+  grid-area: sidebar;
+}
+#content1 {
+  background: cyan;
+  grid-area: content1;
+}
+#content2 {
+  background: orange;
+  grid-area: content2;
+}
+#content3 {
+  background: rgb(215, 222, 222);
+  grid-area: content3;
+}
+footer {
+  background: deeppink;
+  grid-area: footer;
+}
+@media only screen and (max-width:550px) {
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas: 
+    'nav'
+    'sidebar'
+    'main'
+    'content1'
+    'content2'
+    'content3'
+    'footer';
+  }
+  
+}
+
