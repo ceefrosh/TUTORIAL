@@ -121,3 +121,9 @@ p a{
   color: black;
   font-weight: 600;
 }
+
+img{
+  width: 50%;
+  height: 50%;
+  
+}
