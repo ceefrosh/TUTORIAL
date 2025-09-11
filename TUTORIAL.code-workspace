@@ -6,5 +6,8 @@
     {
       "path": "../PORTFOLIO"
     }
-  ]
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "TUTORIAL"
+  }
 }
