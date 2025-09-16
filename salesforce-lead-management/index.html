@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Lead Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Salesforce Lead Management System</h1>
+    </header>
+    <main>
+        <section id="add-lead">
+            <h2>Add New Lead</h2>
+            <form id="lead-form">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone">
+
+                <label for="company">Company:</label>
+                <input type="text" id="company">
+
+                <label for="status">Status:</label>
+                <select id="status">
+                    <option value="New">New</option>
+                    <option value="Contacted">Contacted</option>
+                    <option value="Qualified">Qualified</option>
+                    <option value="Closed">Closed</option>
+                </select>
+
+                <button type="submit">Add Lead</button>
+            </form>
+        </section>
+
+        <section id="edit-lead" style="display: none;">
+            <h2>Edit Lead</h2>
+            <form id="edit-form">
+                <input type="hidden" id="edit-id">
+                <label for="edit-firstName">First Name:</label>
+                <input type="text" id="edit-firstName" required>
+
+                <label for="edit-lastName">Last Name:</label>
+                <input type="text" id="edit-lastName" required>
+
+                <label for="edit-email">Email:</label>
+                <input type="email" id="edit-email" required>
+
+                <label for="edit-phone">Phone:</label>
+                <input type="tel" id="edit-phone">
+
+                <label for="edit-company">Company:</label>
+                <input type="text" id="edit-company">
+
+                <label for="edit-status">Status:</label>
+                <select id="edit-status">
+                    <option value="New">New</option>
+                    <option value="Contacted">Contacted</option>
+                    <option value="Qualified">Qualified</option>
+                    <option value="Closed">Closed</option>
+                </select>
+
+                <button type="submit">Update Lead</button>
+                <button type="button" id="cancel-edit">Cancel</button>
+            </form>
+        </section>
+
+        <section id="lead-list">
+            <h2>Lead List</h2>
+            <input type="text" id="search" placeholder="Search leads...">
+            <table id="leads-table">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Company</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="leads-tbody">
+                    <!-- Leads will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
