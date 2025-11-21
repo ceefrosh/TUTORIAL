@@ -1,7 +1,7 @@
-# Weather Forecast App TODO
+# TODO for Creating Tutorial Project
 
-- [x] Create weather-app directory
-- [x] Create weather-app/index.html
-- [x] Create weather-app/styles.css
-- [x] Create weather-app/script.js
-- [x] Test the app by opening index.html in browser
+- [x] Create tutorial-project folder
+- [x] Create index.html file
+- [x] Create styles.css file
+- [x] Create script.js file
+- [x] Create README.md file
