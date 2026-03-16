@@ -120,7 +120,7 @@ body {
 
 .page-content section{
    /* min-height: 100vh; */
-  padding: 4rem 3rem;
+  padding: 3rem 3rem;
   min-height: clamp(60vh, 68vh,75vh);
    max-height: 920px;
 }
