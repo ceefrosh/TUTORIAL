@@ -1,13 +1,13 @@
 {
   "folders": [
     {
-      "path": "."
+      "path": ".",
     },
     {
-      "path": "../PORTFOLIO"
-    }
+      "path": "../PORTFOLIO",
+    },
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "TUTORIAL"
-  }
+    "liveServer.settings.multiRootWorkspaceName": "TUTORIAL",
+  },
 }
